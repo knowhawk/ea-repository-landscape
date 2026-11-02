@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="EA Repository Landscape" id="id-ac7faa3a176a41e095b00f667256cd1c" version="5.0.0">
+  <folder name="Strategy" id="id-b8f55b34e49f403c891e6159bcc88b47" type="strategy">
+    <folder name="Resources" id="id-1f5bdfd930e348db87403da078137c0d">
+      <documentation>A resource represents an asset owned or controlled by an individual or organization.</documentation>
+    </folder>
+    <folder name="Capabilities" id="id-85a2b84315a24a6890e04f3add28854e">
+      <documentation>A capability represents an ability that an active structure element, such as an organization, person, or system, possesses.</documentation>
+    </folder>
+    <folder name="Value Streams" id="id-48fc0d50697042a39fa5de5c5e926c0f">
+      <documentation>A value stream represents a sequence of activities that create an overall result for a customer, stakeholder, or end user.</documentation>
+    </folder>
+    <folder name="Courses of Action" id="id-04357b51c69146c78973bdd1b7835f06">
+      <documentation>A course of action represents an approach or plan for configuring some capabilities and resources of the enterprise, undertaken to achieve a goal.</documentation>
+    </folder>
+    <documentation>The strategy elements are typically used to model the strategic direction and choices of an enterprise, as far as the impact on its architecture is concerned. They can be used to express how the enterprise wants to create value for its stakeholders, the capabilities it needs, the resources needed to support these capabilities, as well as how it plans to configure and use these capabilities and resources to achieve its aims.</documentation>
+  </folder>
+  <folder name="Business" id="id-319c84b831804e81ac6171c74cac7b31" type="business">
+    <folder name="Business Actors" id="id-36c082ee25104fb39533242bc2a2513a">
+      <documentation>A business actor represents a business entity that is capable of performing behavior.</documentation>
+    </folder>
+    <folder name="Business Roles" id="id-214fbaacb52b42c98b23944942a1a5e1">
+      <documentation>A business role represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in a particular action or event.</documentation>
+    </folder>
+    <folder name="Business Collaborations" id="id-547d3655689e43889f2e421ec59dec91">
+      <documentation>A business collaboration represents an aggregate of two or more business internal active structure elements that work together to perform collective behavior.</documentation>
+    </folder>
+    <folder name="Business Interfaces" id="id-8ee11582b33e41768b26e211ff63fa82">
+      <documentation>A business interface represents a point of access where business services are made available to the environment.</documentation>
+    </folder>
+    <folder name="Business Processes" id="id-664c593e0b6c489594af69b121218ff9">
+      <documentation>A business process represents a sequence of business behaviors that achieves a specific result such as a defined set of products or business services.</documentation>
+    </folder>
+    <folder name="Business Functions" id="id-45db5a7385954b6e96948e138043e318">
+      <documentation>A business function represents a collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole.</documentation>
+    </folder>
+    <folder name="Business Interactions" id="id-a42dea31af914821b313b6bbba55de35">
+      <documentation>A business interaction represents a unit of collective business behavior performed by (a collaboration of) two or more business actors, business roles, or business collaborations.</documentation>
+    </folder>
+    <folder name="Business Events" id="id-c2da45d2cc2e4fc88c074bbe86640b8e">
+      <documentation>A business event represents a business-related state change.</documentation>
+    </folder>
+    <folder name="Business Services" id="id-b38b402df32c46a487d7177f3e49ca6b">
+      <documentation>A business service represents explicitly defined behavior that a business role, business actor, or business collaboration exposes to its environment.</documentation>
+    </folder>
+    <folder name="Business Objects" id="id-a2882bde600e4bacb05534acfcc1cc38">
+      <documentation>A business object represents a concept used within a particular business domain.</documentation>
+    </folder>
+    <folder name="Contracts" id="id-63ff003a593b42328b1ded80f9274fed">
+      <documentation>A contract represents a formal or informal specification of an agreement between a provider and a consumer that specifies the rights and obligations associated with a product and establishes functional and non-functional parameters for interaction.</documentation>
+    </folder>
+    <folder name="Representations" id="id-b37dec5026464015a05ad2668d20e223">
+      <documentation>A representation represents a perceptible form of the information carried by a business object.</documentation>
+    </folder>
+    <folder name="Products" id="id-d994301591064f1183d0799fcd507d06">
+      <documentation>A product represents a coherent collection of services and/or passive structure elements, accompanied by a contract, which is offered as a whole to (internal or external) customers.</documentation>
+    </folder>
+    <documentation>Business Layer elements are used to model the operational organization of an enterprise in a technology-independent manner, whereas strategy elements are used to model the strategic direction and choices of the enterprise.</documentation>
+  </folder>
+  <folder name="Application" id="id-c57fdf3ab96d4e33839304eb44d96caa" type="application">
+    <folder name="Application Components" id="id-6e0555608a7e441da86992e7dddf0777">
+      <documentation>An application component represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.</documentation>
+    </folder>
+    <folder name="Application Collaborations" id="id-b1bb7fb36e2d4c17904ff52c6bf5f5aa">
+      <documentation>An application collaboration represents an aggregate of two or more application internal active structure elements that work together to perform collective application behavior.</documentation>
+    </folder>
+    <folder name="Application Interfaces" id="id-e15a3df04938422ba46015f052e6223d">
+      <documentation>An application interface represents a point of access where application services are made available to a user, another application component, or a node.</documentation>
+    </folder>
+    <folder name="Application Functions" id="id-50042119701d436d9547a4d30a71468a">
+      <documentation>An application function represents automated behavior that can be performed by an application component.</documentation>
+    </folder>
+    <folder name="Application Interactions" id="id-236b03b5da14410aaab7a92a90163295">
+      <documentation>An application interaction represents a unit of collective application behavior performed by (a collaboration of) two or more application components.</documentation>
+    </folder>
+    <folder name="Application Processes" id="id-9a9e8ddac1fb41c99f6a18eb008c4473">
+      <documentation>An application process represents a sequence of application behaviors that achieves a specific result.</documentation>
+    </folder>
+    <folder name="Application Events" id="id-683a48d03d0f48b4aad95c366e1034bb">
+      <documentation>An application event represents an application state change.</documentation>
+    </folder>
+    <folder name="Application Services" id="id-359997ee2a9d4444b0dd5568a40e490b">
+      <documentation>An application service represents an explicitly defined exposed application behavior.</documentation>
+    </folder>
+    <folder name="Data Objects" id="id-8d215d7d00db46219df78b963f87aa56">
+      <documentation>A data object represents data structured for automated processing.</documentation>
+    </folder>
+    <documentation>The Application Layer elements are typically used to model the Application Architecture that describes the structure, behavior, and interaction of the applications of the enterprise.</documentation>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-21a304eebd7d4ede808a373d8b3a3943" type="technology">
+    <folder name="Nodes" id="id-eba1f7c24c9c4975a991f95fa8a01286">
+      <documentation>A node represents a computational or physical resource that hosts, manipulates, or interacts with other computational or physical resources.</documentation>
+    </folder>
+    <folder name="Devices" id="id-3c4d0df6740d4bbb947714e83df0755f">
+      <documentation>A device represents a physical IT resource upon which system software and artifacts may be stored or deployed for execution.</documentation>
+    </folder>
+    <folder name="System Software" id="id-812221469b05468a8fcfe59b7c4c6785">
+      <documentation>A system software represents software that provides or contributes to an environment for storing, executing, and using software or data deployed within it.</documentation>
+    </folder>
+    <folder name="Technology Collaborations" id="id-0f27f7aa8d6f4a638112a3a8afb02710">
+      <documentation>A technology collaboration represents an aggregate of two or more technology internal active structure elements that work together to perform collective technology behavior.</documentation>
+    </folder>
+    <folder name="Technology Interfaces" id="id-3b5b07e509674d61836e6457ba73b730">
+      <documentation>A technology interface represents a point of access where technology services offered by a technology internal active structure can be accessed.</documentation>
+    </folder>
+    <folder name="Paths" id="id-e2e0c8dbdaae4777b66ae083a6d6495f">
+      <documentation>A path represents a link between two or more technology internal active structure elements, through which these elements can exchange data, energy, or material.</documentation>
+    </folder>
+    <folder name="Communication Networks" id="id-c6590d72257c4e429dcbffc439455bf0">
+      <documentation>A communication network represents a set of structures that connects devices or system software for transmission, routing, and reception of data.</documentation>
+    </folder>
+    <folder name="Technology Functions" id="id-859aea5cd8ce4ac986015f33391b845f">
+      <documentation>A technology function represents a collection of technology behavior that can be performed by a technology internal active structure element.</documentation>
+    </folder>
+    <folder name="Technology Processes" id="id-c350820e0f3f4f0aa477abb9c73b770e">
+      <documentation>A technology process represents a sequence of technology behaviors that achieves a specific result.</documentation>
+    </folder>
+    <folder name="Technology Interactions" id="id-1a72b657c1314b0295a828b4a22eb55d">
+      <documentation>A technology interaction represents a unit of collective technology behavior performed by (a collaboration of) two or more technology internal active structure elements.</documentation>
+    </folder>
+    <folder name="Technology Events" id="id-bd9ab1ee78184c9d8a16790e42c06015">
+      <documentation>A technology event represents a technology state change.</documentation>
+    </folder>
+    <folder name="Technology Services" id="id-959f2d9536b5405a9f5fecb6554dcc86">
+      <documentation>A technology service represents an explicitly defined exposed technology behavior.</documentation>
+    </folder>
+    <folder name="Artifacts" id="id-337fa61088a44afaa0de838d2c49e4b0">
+      <documentation>An artifact represents a piece of data that is used or produced in a software development process, or by deployment and operation of an IT system.</documentation>
+    </folder>
+    <folder name="Physical Elements" id="id-23bc3436798344c9a00251dffe00901c">
+      <folder name="Equipment" id="id-1e95e5eb081f4e24a3542db3e3b5dab8">
+        <documentation>An equipment represents one or more physical machines, tools, or instruments that can create, use, store, move, or transform materials.</documentation>
+      </folder>
+      <folder name="Facilities" id="id-a8b7976b1df649369d63d34bf0c20df1">
+        <documentation>A facility represents a physical structure or environment.</documentation>
+      </folder>
+      <folder name="Distribution Networks" id="id-ddc81425dfd1490d80d7294059de8021">
+        <documentation>A distribution network represents a physical network used to transport materials or energy.</documentation>
+      </folder>
+      <folder name="Materials" id="id-7ad1e4af768648cb81b627b2633abb1b">
+        <documentation>A material represents tangible physical matter or energy.</documentation>
+      </folder>
+      <documentation>The physical elements are an extension to the Technology Layer for modeling the physical world. They only include active and passive structure elements; no specific physical behavior elements are defined. Physical technology elements can be combined with other technology elements (such as device) and be part of the same node, to model an integrated piece of operational and information technology.</documentation>
+    </folder>
+    <documentation>The Technology Layer elements are typically used to model the Technology Architecture of the enterprise, describing the structure and behavior of the technology infrastructure of the enterprise.</documentation>
+  </folder>
+  <folder name="Motivation" id="id-129b94c976ec4614bc9fac3c7bc83916" type="motivation">
+    <folder name="Stakeholders" id="id-8a53cb86eaaa4095be47b40791ac8a13">
+      <documentation>A stakeholder represents the role of an individual, team, or organization (or classes thereof) that represents their interests in the effects of the architecture.</documentation>
+    </folder>
+    <folder name="Drivers" id="id-84c300ab4e634deeba7c96b39cfe4601">
+      <documentation>A driver represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them.</documentation>
+    </folder>
+    <folder name="Assessments" id="id-f91214b7e684481c877f857840e7f16c">
+      <documentation>An assessment represents the result of an analysis of the state of affairs of the enterprise with respect to some driver.</documentation>
+    </folder>
+    <folder name="Goals" id="id-557e3c3dbbf64371bf419664c1e1744d">
+      <documentation>A goal represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders.</documentation>
+    </folder>
+    <folder name="Outcomes" id="id-f9b2cb9feb6b40909fd01cf1d3b4e73b">
+      <documentation>An outcome represents an end result, effect, or consequence of a certain state of affairs.</documentation>
+    </folder>
+    <folder name="Principles" id="id-bc34046969b742cdb67fb7bac403a305">
+      <documentation>A principle represents a statement of intent defining a general property that applies to any system in a certain context in the architecture.</documentation>
+    </folder>
+    <folder name="Requirements" id="id-4928872ea19f4840ad2bb52e7aacb325">
+      <documentation>A requirement represents a statement of need defining a property that applies to a specific system as described by the architecture.</documentation>
+    </folder>
+    <folder name="Constraints" id="id-00732c31e71a43f29a84f7ba9329ffbc">
+      <documentation>A constraint represents a limitation on aspects of the architecture, its implementation process, or its realization.</documentation>
+    </folder>
+    <folder name="Meanings" id="id-c0d86e83bd704bae8c9b4beda0a5479c">
+      <documentation>A meaning represents the knowledge or expertise present in, or the interpretation given to, a concept in a particular context.</documentation>
+    </folder>
+    <folder name="Values" id="id-256ae10cb140472eb9571fdfbd24a1c5">
+      <documentation>A value represents the relative worth, utility, or importance of a concept.</documentation>
+    </folder>
+    <documentation>Motivation elements are used to model the motivations, or reasons, that guide the design or change of an Enterprise Architecture.</documentation>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-bee36273caa649b0ad922f4485b318cc" type="implementation_migration">
+    <folder name="Work Packages" id="id-3482aeab13be42039a27ec7abb9f3158">
+      <documentation>A work package represents a series of actions identified and designed to achieve specific results within specified time and resource constraints.</documentation>
+    </folder>
+    <folder name="Implementation Events" id="id-0944b62424fa43caaee01da9bb0567de">
+      <documentation>An implementation event represents a state change related to implementation or migration.</documentation>
+    </folder>
+    <folder name="Deliverables" id="id-78fe11a7ce984c36b555caeec02b3d7c">
+      <documentation>A deliverable represents a precisely defined result of a work package.</documentation>
+    </folder>
+    <folder name="Plateaus" id="id-61b893e8689942889c621156de45eb80">
+      <documentation>A plateau represents a relatively stable state of the architecture that exists during a limited period of time.</documentation>
+    </folder>
+    <folder name="Gaps" id="id-cbe9943dfca540cebf8966927b41843f">
+      <documentation>A gap represents a statement of difference between two plateaus.</documentation>
+    </folder>
+    <documentation>The implementation and migration elements support the planning and execution of change: work packages and implementation events, the deliverables they produce, and the plateaus and gaps that describe the successive states of the architecture.</documentation>
+  </folder>
+  <folder name="Other" id="id-181ebe13f37046acbc730bb2acd3a045" type="other">
+    <folder name="Locations" id="id-90f82cb0a4904faa8aa33653a5fa1084">
+      <documentation>A location represents a conceptual or physical place or position where concepts are located (e.g., structure elements) or performed (e.g., behavior elements).</documentation>
+    </folder>
+    <folder name="Groupings" id="id-f3f0f2e1722e43cd800e601c71597ca3">
+      <documentation>A grouping aggregates or composes concepts that belong together based on some common characteristic.</documentation>
+    </folder>
+    <folder name="Junctions" id="id-8a1b5bc6c23443f69f0522bb13e746de">
+      <documentation>A junction is used to connect relationships of the same type (AND or OR junction).</documentation>
+    </folder>
+    <documentation>Composite and connector elements that are not specific to a layer: locations, groupings and junctions.</documentation>
+  </folder>
+  <folder name="Relations" id="id-30fffd1b88fe482a87c2d22d2a8d281c" type="relations">
+    <documentation>All relationships of the model.</documentation>
+  </folder>
+  <folder name="Views" id="id-2e128740669a47b6b2dd14f324ed909a" type="diagrams">
+    <folder name="2 Architecture Landscape" id="id-c783e6b7039945d5a874bdf3d7d06e79">
+      <folder name="2.1 Strategic Architectures" id="id-bd2186473a5c44e4875ac4d4e2aebbc5">
+        <documentation>Strategic Architectures show a long-term summary view of the entire enterprise. Strategic Architectures provide an organizing framework for operational and change activity and allow for direction setting at an executive level.</documentation>
+      </folder>
+      <folder name="2.2 Segment Architectures" id="id-68b74154618c455083d321fa2e8f9cd3">
+        <documentation>Segment Architectures provide more detailed operating models for areas within an enterprise. Segment Architectures can be used at the program or portfolio level to organize and operationally align more detailed change activity.</documentation>
+      </folder>
+      <folder name="2.3 Capability Architectures" id="id-a052369c21fa4e2fbe610464ef054797">
+        <documentation>Capability Architectures show in a more detailed fashion how the enterprise can support a particular unit of capability. Capability Architectures are used to provide an overview of current capability, target capability, and capability increments and allow for individual work packages and projects to be grouped within managed portfolios and programs.</documentation>
+      </folder>
+      <documentation>The Architecture Landscape presents an architectural representation of assets in use, or planned, by the enterprise at particular points in time.</documentation>
+    </folder>
+    <folder name="3 Solution Landscape" id="id-7439475001d54fc58e1ea6eaa4cd4680">
+      <folder name="3.1 Strategic SBBs" id="id-f60b526f125547e5a8b3e88171d68fd2">
+        <documentation>Solution Building Blocks supporting the Strategic Architectures: enterprise-wide solutions, platforms and shared services that realize the long-term direction of the whole enterprise. Views show the solutions, the Architecture Building Blocks they realize and their main products, packages or services.</documentation>
+      </folder>
+      <folder name="3.2 Segment SBBs" id="id-bc073fbcaee642bf9af90e2b57461ed2">
+        <documentation>Solution Building Blocks supporting the Segment Architectures: solutions realizing the operating model of a business area, portfolio or program. Views show the solutions, the Architecture Building Blocks they realize and how they fit within the segment.</documentation>
+      </folder>
+      <folder name="3.3 Capability SBBs" id="id-385527f4eb3540579ba9861756143d6c">
+        <documentation>Solution Building Blocks supporting the Capability Architectures: the concrete products, components and services delivering a particular capability or change increment. Views show the solutions in detail, the Architecture Building Blocks they realize and the work packages delivering them.</documentation>
+      </folder>
+      <documentation>The Solutions Landscape presents an architectural representation of the SBBs supporting the Architecture Landscape which have been planned or deployed by the enterprise.
+The building blocks may be products or services which may be categorized according to the Enterprise Continuum categorization and/or the ABB specifications as Strategic, Segment, or Capability SBBs.
+SBBs may also include tools, systems, services, and information which describe the actual solutions that may be selected and their operation.</documentation>
+    </folder>
+    <folder name="1 Architecture Requirements" id="id-16d495001d5f419cb097f59d699c5560">
+      <folder name="1.1 Strategic Requirements" id="id-60c62e492b9c485ca628df1e0f1a158a">
+        <documentation>Requirements views at strategic level.</documentation>
+      </folder>
+      <folder name="1.2 Segment Requirements" id="id-c0597074f26a4f529d6b8c37664d88b3">
+        <documentation>Requirements views at segment level.</documentation>
+      </folder>
+      <folder name="1.3 Capability Requirements" id="id-3585ca435e3d499493d92910fafa6e22">
+        <documentation>Requirements views at capability level.</documentation>
+      </folder>
+      <documentation>The Architecture Requirements Repository provides a view of all authorized architecture requirements which have been agreed with the Architecture Board.</documentation>
+    </folder>
+    <documentation>All views (diagrams) of the model.</documentation>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Read Me" id="id-0ed450eb7c184fce9fae6f0aae810bb1">
+      <child xsi:type="archimate:Note" id="id-59ecd090dfb64a79a648c13d99a093d2" textAlignment="1" fillColor="#FFFFFF">
+        <bounds x="24" y="24" width="950" height="900"/>
+        <content>READ ME - EA Repository Landscape (template v2.0)
+
+PURPOSE
+This model is the Architecture Landscape of the Architecture Repository (TOGAF® Standard, 10th Edition), modeled in ArchiMate® 3.2. It holds the architecture of the enterprise: the Architecture Requirements, the Architecture Landscape and the Solution Landscape, in their Baseline, Transition and Target states. The reusable reference content (metamodel, Reference Library, Standards Library) lives in the companion Foundation model. This template contains no example content: worked examples are maintained in a separate example model.
+
+HOW TO START A NEW PROJECT
+1. File > New > New Model from Template, select &quot;EA Repository Landscape&quot;.
+2. Rename the model: &quot;&lt;Organization> - &lt;Project name> - Landscape&quot;.
+3. Replace the placeholders in the model Purpose and in the model properties (Organization, Project, Model Owner).
+4. Keep the property &quot;Template Version&quot;: it records the template release the project started from.
+
+ELEMENT FOLDERS
+- One subfolder per element type in every layer folder, ordered Active structure / Behavior / Passive structure.
+- An element is modeled once, whatever the architecture state it belongs to: an unchanged application is the same element in the Baseline and in the Target.
+- Architecture states (Baseline, Transition, Target) are not separated in folders: they are managed with the view property &quot;Architecture State&quot; and with Git branches (see VERSION CONTROL).
+
+VIEWS
+- The view folders are numbered to follow the logic of the Architecture Repository: requirements first, then the architecture, then the solutions.
+- 1 Architecture Requirements: requirements realization views per architecture level (1.1 Strategic, 1.2 Segment, 1.3 Capability).
+- 2 Architecture Landscape: 2.1 Strategic, 2.2 Segment and 2.3 Capability Architectures.
+- 3 Solution Landscape: 3.1 Strategic, 3.2 Segment and 3.3 Capability Solution Building Blocks (SBBs).
+- TOGAF Artifact Guides: the guide views for the TOGAF artifacts (catalogs, matrices, tables and diagrams) are maintained in the Foundation model (Views > Reference Library > TOGAF Artifact Guides). Create each artifact view in the folder indicated by the guide (1 Architecture Requirements, 2 Architecture Landscape or 3 Solution Landscape) and copy the view properties of the guide.
+- Business Model Canvas: use the Archi Canvas feature (New > Canvas from Template > Business Model Canvas) rather than an ArchiMate view.
+
+PROPERTIES
+- View properties &quot;TOGAF Artifact&quot;, &quot;ADM Phase&quot; and &quot;ArchiMate Viewpoint&quot; identify the artifact a view delivers. Set them on every artifact view, as defined in the Foundation guides.
+- View property &quot;Architecture State&quot;: Baseline, Transition or Target. Mandatory on every view in 2 Architecture Landscape and 3 Solution Landscape.
+
+VERSION CONTROL (GIT / GITHUB)
+- Branch &quot;main&quot; holds the validated Baseline Architecture.
+- One branch &quot;target/&lt;initiative>&quot; is created per ADM cycle or initiative; it holds the Transition and Target Architectures under development.
+- When the initiative is implemented, the branch is merged into &quot;main&quot;: the Target becomes the new Baseline, and the &quot;Architecture State&quot; of the views is updated accordingly.
+- Use tags to mark validated releases of the Landscape (e.g. &quot;baseline-2026-10&quot;).
+
+CONVENTIONS
+- All names, documentation and notes are written in English.
+- View layout: within each layer, active structure elements on the left, behavior elements in the center, passive structure elements on the right; Motivation on the right.
+- Element names: singular, Title Case. Relationship names left empty unless they add meaning.
+- Every element carries a documentation text.
+- Only ArchiMate 3.2 compliant relationships (use Archi Validator before each release).
+
+TEMPLATE MAINTENANCE
+- The master template is maintained as a regular .archimate file and exported with File > Save As Template.
+- Increase &quot;Template Version&quot; and log the change in the CHANGELOG at each release.</content>
+      </child>
+      <documentation>How to use this template: purpose, folder structure, views, properties, conventions and maintenance.</documentation>
+    </element>
+  </folder>
+  <property key="Template Name" value="EA Repository Landscape"/>
+  <property key="Template Version" value="2.0"/>
+  <property key="Organization" value="&lt;Organization>"/>
+  <property key="Project" value="&lt;Project name>"/>
+  <property key="Model Owner" value="&lt;Name>"/>
+  <property key="Repository Part" value="Architecture Landscape"/>
+  <purpose>Architecture Landscape of &lt;Organization> - &lt;Project name>.
+
+Created from the template &quot;EA Repository Landscape&quot; (TOGAF® Standard, 10th Edition / ArchiMate® 3.2). It contains the Architecture Requirements, the Architecture Landscape (Strategic, Segment and Capability Architectures) and the Solution Landscape (Solution Building Blocks). Architecture states (Baseline, Transition, Target) are managed with the view property &quot;Architecture State&quot; and with Git branches. The reusable reference content is maintained in the companion model &quot;&lt;Organization> - &lt;Project name> - Foundation&quot;.</purpose>
+</archimate:model>
