@@ -282,10 +282,22 @@ PROPERTIES
 - View property &quot;Architecture State&quot;: Baseline, Transition or Target. Mandatory on every view in 2 Architecture Landscape and 3 Solution Landscape.
 
 VERSION CONTROL (GIT / GITHUB)
-- Branch &quot;main&quot; holds the validated Baseline Architecture.
-- One branch &quot;target/&lt;initiative>&quot; is created per ADM cycle or initiative; it holds the Transition and Target Architectures under development.
-- When the initiative is implemented, the branch is merged into &quot;main&quot;: the Target becomes the new Baseline, and the &quot;Architecture State&quot; of the views is updated accordingly.
-- Use tags to mark validated releases of the Landscape (e.g. &quot;baseline-2026-10&quot;).
+Principle
+Version control carries the approval status: the main branch holds all approved architecture content (Baseline, approved Transition and Target Architectures); working branches hold proposals under review.
+The model carries the temporal state: the Lifecycle Status property on elements and relationships, and the Architecture State property on views.
+Branch types
+- baseline/&lt;topic>: documentation improvement or reconciliation of the Baseline with a change already in operation. Short-lived. Merged after peer review. A reconciliation references the originating change ticket; a significant undocumented change is reported to architecture governance.
+- change/&lt;CR-id>: change outside any initiative (incremental change, TOGAF ADM Phase H). Merged after architecture review, at approval, with new content set to Planned.
+- initiative/&lt;name>: architecture work following an ADM cycle (re-architecting change). Merged when the Architecture Board approves the Target Architecture. Synchronized with main regularly to limit divergence.
+Lifecycle of planned content
+1. Approval: merge into main; new elements and relationships set to Planned, with a Change Reference; retired ones set to Phasing Out.
+2. Implementation start: Planned becomes In Implementation.
+3. Go-live: a short pull request sets In Implementation to Active and Phasing Out to Retired; main is then tagged.
+4. Clean-up: Retired content no longer referenced by a validated view is deleted.
+Rules
+- Every merge into main goes through a pull request; Archi Validator reports no warning.
+- Every merge into main that changes the Baseline is tagged.
+- Views keep the Architecture State property (Baseline / Transition / Target).
 
 CONVENTIONS
 - All names, documentation and notes are written in English.
